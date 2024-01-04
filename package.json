@@ -7,7 +7,7 @@
   "scripts": {
     "start": "parcel",
     "build": "parcel build",
-    "build-gh": "parcel build --public-url '/My-professional-profile/'",
+    "build-gh": "parcel build src/index.html --public-url '/My-professional-profile/'",
     "predeploy": "npm run build-gh",
     "deploy": "gh-pages -d dist"
   },
@@ -21,6 +21,7 @@
     "url": "https://github.com/microsoft/codespaces-teaching-template-js/issues"
   },
   "dependencies": {
+    "parcel-bundler": "^1.12.5",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
