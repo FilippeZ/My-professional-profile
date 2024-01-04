@@ -7,7 +7,7 @@
   "scripts": {
     "start": "parcel",
     "build": "parcel build",
-    "build-gh": "parcel build --public-url 'http://filippez.github.io/My-professional-profile'",
+    "build-gh": "parcel build --public-url '/My-professional-profile/'",
     "predeploy": "npm run build-gh",
     "deploy": "gh-pages -d dist"
   },
